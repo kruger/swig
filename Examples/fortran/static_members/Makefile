@@ -5,7 +5,7 @@ CXXSRCS    = static_members.cxx
 TARGET     = static_members
 INTERFACE  = static_members.i
 SWIGOPT    =
-FORTRANSRCS = runme.f90
+FORTRANSRCS = runme.F90
 
 check: build
 	$(MAKE) -f $(TOP)/Makefile SRCDIR='$(SRCDIR)' fortran_run
